@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # ✅ Flutter حديث متوافق مع flutter_map
+      # Flutter حديث
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
@@ -36,21 +36,26 @@ jobs:
           cd ios
           pod install
 
-      # ✅ بناء التطبيق (ينتج Runner.app)
-      - name: Build iOS app (no signing)
+      # Build iOS app
+      - name: Build iOS app
         run: flutter build ios --release --no-codesign
 
-      # ✅ تحويل Runner.app إلى Runner.ipa يدويًا
-      - name: Create IPA manually
+      # إنشاء Payload structure الصحيح
+      - name: Create Payload folder
         run: |
-          mkdir -p build/ios/ipa
-          cd build/ios/iphoneos
-          zip -r ../ipa/Runner.ipa Runner.app
+          mkdir -p build/ios/Payload
+          cp -R build/ios/iphoneos/Runner.app build/ios/Payload/
 
-      # ✅ رفع ملف IPA
+      # إنشاء IPA بالطريقة الصحيحة
+      - name: Create IPA
+        run: |
+          cd build/ios
+          zip -r Runner.ipa Payload
+
+      # رفع IPA
       - name: Upload IPA artifact
         uses: actions/upload-artifact@v4
         with:
           name: ios-ipa
-          path: build/ios/ipa/*.ipa
+          path: build/ios/Runner.ipa
           if-no-files-found: error
