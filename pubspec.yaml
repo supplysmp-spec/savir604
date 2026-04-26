@@ -1,0 +1,110 @@
+﻿name: tks
+description: "T.K.S_Group The best global applications"
+publish_to: 'none'
+
+version: 6.0.4+2
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.7.2
+  jiffy: ^6.3.1
+  intl: ^0.19.0
+  http: ^1.2.1
+  get_storage: ^2.0.3
+  cached_network_image: ^3.4.0
+  photo_view: ^0.14.0
+  show_up_animation: ^2.0.0
+  auto_animated: ^3.2.0
+  animated_text_kit: ^4.2.1
+  carousel_slider: ^5.0.0
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  flutter_svg: ^2.0.10+1 
+  flutter_paypal_payment: ^1.0.7
+  flutter_otp_text_field: ^1.2.0
+  dartz: ^0.10.1
+  flutter_tts: ^4.0.2
+  url_launcher: ^6.3.1
+  transparent_image: ^2.0.0
+  shared_preferences: ^2.3.2
+  video_player: ^2.9.2
+  image_network: ^2.5.6
+  shared_preferences_windows: ^2.4.1
+  path_provider_windows: ^2.3.0
+  flutter_rating_bar: ^4.0.1
+  webview_flutter: ^4.13.0
+  flutter_inappwebview: ^6.0.0
+  iconsax_flutter: ^1.0.1
+  webview_windows: ^0.4.0
+  font_awesome_flutter: ^10.10.0
+  audioplayers: ^6.5.1
+  record: ^6.1.2
+  emoji_picker_flutter: ^4.3.0
+  firebase_core: ^4.2.0
+  firebase_auth: ^6.0.3
+  firebase_messaging: ^16.0.4
+  flutter_local_notifications: ^19.4.0
+  image_picker: ^1.2.1
+  google_mlkit_face_detection: ^0.13.1
+  latlong2: ^0.9.1
+  flutter_map: ^8.2.2
+  animate_do: ^4.2.0
+  permission_handler: ^11.3.1
+  crypto: ^3.0.6
+  share_plus: ^10.0.2
+  lottie: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/whatsapp_logo.png
+    - assets/images/perfume_flow/
+    - assets/images/sale.png
+    - assets/developer.jpg
+    - assets/images/Capture.PNG
+    - assets/images/Capture2.PNG
+    - assets/images/Capture3.PNG
+    - assets/images/globe.gif
+    - assets/images/logo1.png
+    - assets/images/avatar.png
+    - assets/images/am.gif
+    - assets/images/egypt-flag-gif.gif
+    - assets/images/006-delivery.png
+    - assets/images/egypt.png
+    - assets/images/amrica.png
+    - assets/images/franch.png
+    - assets/images/germany.png
+    - assets/images/italya.png
+    - assets/images/logo.png
+    - assets/images/on1.png
+    - assets/images/on2.png
+    - assets/images/on3.png
+    - assets/json/
+    - assets/audio/
+
+  fonts:
+    - family: myfont
+      fonts:
+        - asset: assets/fonts/SourceSerif4_18pt-SemiBold.ttf
+    - family: displayfont
+      fonts:
+        - asset: assets/fonts/Oswald-VariableFont_wght.ttf
+    - family: myfontstart
+      fonts:
+        - asset: assets/fonts/SourceSerif4_18pt-SemiBold.ttf 
+    - family: myfontar
+      fonts:
+        - asset: assets/fonts/Jomhuria-Regular.ttf 
+    - family: catfont
+      fonts:
+        - asset: assets/fonts/Bitter-VariableFont_wght.ttf

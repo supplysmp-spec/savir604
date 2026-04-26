@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "134501745798",
+    "project_id": "percious-fragance-664bc",
+    "storage_bucket": "percious-fragance-664bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134501745798:android:0f32e59cec15ba91927d07",
+        "android_client_info": {
+          "package_name": "com.savir.per"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134501745798-lsnbs0h2a0ssacpppiu39jqs0rf2dq6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf4ViGDrugT3r6tG_14fyMoAmJpz104XM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134501745798-lsnbs0h2a0ssacpppiu39jqs0rf2dq6t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "134501745798-gf62hfr41etf2mq6ij7c25a6nh6780bq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.savir604"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
